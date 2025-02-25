@@ -17,4 +17,9 @@ plt.title('Testing out graph')
 # Display the plot
 plt.show()
 
-
+#An interesting thing I learned playing around with matplotlib is the ease of changing the colors of the line and different line styles.
+#Another interesting thing is how easy it is to make sense of the code for it since it's using a simple code format for X and Y axis 
+#information.
+#
+#
+#
