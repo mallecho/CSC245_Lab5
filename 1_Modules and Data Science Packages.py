@@ -4,7 +4,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-random_numbers = np.random.rand(10)
+random_numbers = np.random.randint(10, size=10)
+
+
 
 
 mean_random_numbers = np.mean(random_numbers)
@@ -17,7 +19,7 @@ print("Sum of the numbers:", sum_random_numbers)
 
 
 plt.plot(random_numbers)
-plt.title("Simple Line Plot of Random Numbers")
-plt.xlabel("Index")
-plt.ylabel("Random Number")
+plt.title("Line graph of random numbers")
+plt.xlabel("Random number X")
+plt.ylabel("Random Number Y axis")
 plt.show()
