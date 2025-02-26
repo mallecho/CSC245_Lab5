@@ -20,6 +20,6 @@ print("Sum of the numbers:", sum_random_numbers)
 
 plt.plot(random_numbers)
 plt.title("Line graph of random numbers")
-plt.xlabel("Random number X")
-plt.ylabel("Random Number Y axis")
+plt.xlabel("Random number X Axis")
+plt.ylabel("Random Number Y Axis")
 plt.show()
